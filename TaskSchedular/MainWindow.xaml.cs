@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace TaskSchedular
 {
@@ -23,6 +24,22 @@ namespace TaskSchedular
         public MainWindow()
         {
             InitializeComponent();
+            Loaded += MainPage_Loaded;
+        }
+
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Set up a timer to update the clock every second
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += Timer_Tick;
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Start();
+        }
+
+        private void Timer_Tick(object sender, object e)
+        {
+            // Update the TextBlock with the current time
+            DigitalClock.Text = DateTime.Now.ToString("HH:mm:ss");
         }
     }
 }

@@ -6,8 +6,12 @@
         xmlns:local="clr-namespace:TaskSchedular"
         mc:Ignorable="d"
         Title="Task Schedular" Height="435" Width="738"
-        Background="#181735">
+        ResizeMode="NoResize"
+        Background="White">
     <Grid>
+
+
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="26"></ColumnDefinition>
             <ColumnDefinition Width="Auto" MinWidth="24"/>
@@ -24,33 +28,59 @@
 
         </Grid.RowDefinitions>
 
-        <Grid Background="Gray" Grid.Row="0" Grid.RowSpan="6"/>
+
+        <!-- Nav bar configs-->
+        <Grid Background="#47515d"
+              Grid.Row="0" 
+              Grid.RowSpan="6"/>
         <StackPanel Grid.Row="0">
             <Image
                 Width="17"
                 Source="Images/home.png" Height="37"
                 />
         </StackPanel>
+
         <StackPanel Grid.Row="1">
             <Image Width="18"
                    Source="Images/Projects.png" Height = "37"
                    />
         </StackPanel>
+
         <StackPanel Grid.Row="2">
             <Image Width="18"
                    Source="Images/people.png" Height = "37"
                    />
         </StackPanel>
-        <StackPanel Grid.Row="4">
+
+        <StackPanel Grid.Row="3" Margin="0,246,0,0" Grid.RowSpan="2">
             <Image Width="18"
                    Source="Images/notification.png" Height = "37"
                    />
         </StackPanel>
-        <StackPanel Grid.Row="5">
+
+        <StackPanel Grid.Row="4" Margin="0,31,0,0" Grid.RowSpan="2">
             <Image Width="18"
                    Source="Images/user.png" Height = "37"
                    />
         </StackPanel>
 
+        <!-- CLock -->
+        <Grid Grid.Row="0"
+              Grid.Column="1" 
+              VerticalAlignment="Center">
+            <!-- Clock here Trail-->
+            <StackPanel
+                Margin="310,10,0,0" Height="28" VerticalAlignment="Top">
+                <Border
+                    Background="Gray"
+                    CornerRadius="5" Height="24" Width="65">
+                    <TextBlock 
+                        x:Name="DigitalClock" 
+                        FontSize="15" 
+                        HorizontalAlignment="Center"
+                        />
+                </Border>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
