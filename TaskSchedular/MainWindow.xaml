@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Task Schedular" Height="435" Width="738"
         ResizeMode="NoResize"
-        Background="White">
+        Background="#edeff0">
     <Grid>
 
 
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="26"></ColumnDefinition>
-            <ColumnDefinition Width="Auto" MinWidth="24"/>
+            <ColumnDefinition Width="auto" />
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -52,13 +52,13 @@
                    />
         </StackPanel>
 
-        <StackPanel Grid.Row="3" Margin="0,246,0,0" Grid.RowSpan="2">
+        <StackPanel Grid.Row="4" >
             <Image Width="18"
                    Source="Images/notification.png" Height = "37"
                    />
         </StackPanel>
 
-        <StackPanel Grid.Row="4" Margin="0,31,0,0" Grid.RowSpan="2">
+        <StackPanel Grid.Row="5" >
             <Image Width="18"
                    Source="Images/user.png" Height = "37"
                    />
@@ -77,10 +77,21 @@
                     <TextBlock 
                         x:Name="DigitalClock" 
                         FontSize="15" 
+                        Foreground="AliceBlue"
                         HorizontalAlignment="Center"
                         />
                 </Border>
             </StackPanel>
         </Grid>
+
+        <!---->
+        <Grid Grid.Row="1" Grid.Column="1" 
+              Margin="10,5,0,0" 
+              Grid.RowSpan="5"
+              Background="#fcfdfc" HorizontalAlignment="Left" Width="535" Height="377" VerticalAlignment="Top">
+
+        </Grid>
+
+
     </Grid>
 </Window>
