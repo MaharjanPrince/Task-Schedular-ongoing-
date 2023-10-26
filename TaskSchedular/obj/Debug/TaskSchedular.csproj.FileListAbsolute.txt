@@ -1,0 +1,15 @@
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\bin\Debug\TaskSchedular.exe.config
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\bin\Debug\TaskSchedular.exe
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\bin\Debug\TaskSchedular.pdb
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.csproj.AssemblyReference.cache
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\MainWindow.g.cs
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\App.g.cs
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular_MarkupCompile.cache
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular_MarkupCompile.lref
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\MainWindow.baml
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.g.resources
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.Properties.Resources.resources
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.csproj.GenerateResource.cache
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.csproj.CoreCompileInputs.cache
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.exe
+C:\Users\Illumination\source\repos\TaskSchedular\TaskSchedular\obj\Debug\TaskSchedular.pdb
