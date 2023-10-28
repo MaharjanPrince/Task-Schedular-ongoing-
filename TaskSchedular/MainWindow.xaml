@@ -8,7 +8,7 @@
         Title="Task Schedular" Height="435" Width="738"
         ResizeMode="NoResize"
         Background="#edeff0">
-    <Grid>
+    <Grid Height="419" VerticalAlignment="Bottom">
 
 
 
@@ -84,14 +84,20 @@
             </StackPanel>
         </Grid>
 
-        <!---->
+        <!-- Here will be the tasks which will be added soon -->
         <Grid Grid.Row="1" Grid.Column="1" 
               Margin="10,5,0,0" 
               Grid.RowSpan="5"
-              Background="#fcfdfc" HorizontalAlignment="Left" Width="535" Height="377" VerticalAlignment="Top">
+              Background="#fcfdfc" HorizontalAlignment="Left" Width="480" Height="377" VerticalAlignment="Top">
 
         </Grid>
+        <!--WHere Active taks resides -->
+        <Grid Grid.Row="1" Grid.Column="1"
+              Margin="505,5,-200,48" Grid.RowSpan="3"
+              Background="#fcfdfc">
 
+
+        </Grid>
 
     </Grid>
 </Window>
